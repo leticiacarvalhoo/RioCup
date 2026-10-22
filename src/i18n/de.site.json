@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "products": "Produkte",
+    "about": "Über uns",
+    "order": "Açaí bestellen",
+    "menu": "Menü"
+  },
+  "home": {
+    "eyebrow": "RIOCUP & CO. · BRAUNSCHWEIG",
+    "title": "Dein Stück Brasilien in Braunschweig.",
+    "text": "Açaí, Tapioca und brasilianische Snacks – frisch zubereitet im Magniviertel.",
+    "ctaOrder": "Açaí bestellen",
+    "cta": "Produkte entdecken",
+    "productsEyebrow": "UNSERE PRODUKTE",
+    "productsTitle": "Das schmeckt nach Brasilien.",
+    "orderEyebrow": "VORBESTELLEN",
+    "orderTitle": "Dein Açaí in deiner Größe.",
+    "orderText": "Vier Größen, ein Geschmack: Wähle XS, S, M oder L und bestelle vor.",
+    "aboutEyebrow": "ÜBER UNS",
+    "aboutTitle": "Ein kleines Stück Brasilien im Magniviertel.",
+    "aboutText": "RioCup & Co. bringt brasilianische Klassiker nach Braunschweig: Açaí, Tapioca, Pão de Queijo und mehr. Mit Liebe zubereitet, für alle, die Brasilien schmecken wollen.",
+    "aboutCta": "Mehr über uns",
+    "visitEyebrow": "BESUCH UNS",
+    "visitTitle": "Wir freuen uns auf dich.",
+    "visitMaps": "Route in Google Maps",
+    "visitInstagram": "Auf Instagram folgen"
+  },
+  "about": {
+    "eyebrow": "ÜBER UNS",
+    "title": "Brasilien schmeckt man.",
+    "intro": "RioCup & Co. ist ein kleiner brasilianischer Laden im Magniviertel in Braunschweig.",
+    "p1": "Wir bringen die Klassiker Brasiliens in die Stadt: Açaí, Tapioca, Coxinha, Pão de Queijo und Guaraná. Einfach, ehrlich und mit einem Stück Urlaubsgefühl.",
+    "p2": "Auf Instagram lernst du außerdem mit uns Portugiesisch, Wort für Wort. Komm vorbei und probier es gleich aus.",
+    "values": [
+      { "title": "Brasilianisch", "text": "Klassiker und Rezepte aus Brasilien." },
+      { "title": "Mit Liebe gemacht", "text": "Eine kleine Küche mit viel Sorgfalt." },
+      { "title": "Mitten im Viertel", "text": "Im Magniviertel, mitten in Braunschweig." }
+    ]
+  },
+  "order": {
+    "eyebrow": "VORBESTELLEN",
+    "title": "Açaí bestellen",
+    "intro": "Wähle deine Größe und hol deinen Açaí bei uns ab.",
+    "sizeTitle": "Größe",
+    "qtyTitle": "Anzahl",
+    "toppingsTitle": "Toppings",
+    "toppingsSoon": "Die Toppings kannst du bald hier auswählen.",
+    "nameLabel": "Dein Name",
+    "namePlaceholder": "Wie dürfen wir dich nennen?",
+    "pickupLabel": "Abholzeit",
+    "noteLabel": "Anmerkung (optional)",
+    "summaryTitle": "Deine Bestellung",
+    "summaryItem": "{{qty}} × Açaí {{size}}",
+    "total": "Gesamt",
+    "submit": "Vorbestellung senden",
+    "needName": "Bitte gib deinen Namen an.",
+    "demo": "Danke, {{name}}! Das ist eine Testversion: Deine Bestellung ({{total}}, Abholung um {{time}}) wurde noch nicht an den Laden gesendet.",
+    "fineprint": "Testversion: Es werden keine Bestellungen oder Zahlungen übertragen."
+  },
+  "login": {
+    "eyebrow": "TEAM",
+    "title": "Login",
+    "intro": "Nur für das RioCup-Team.",
+    "email": "E-Mail",
+    "password": "Passwort",
+    "submit": "Anmelden",
+    "error": {
+      "backend": "Der Login ist noch nicht mit dem Server verbunden."
+    },
+    "preview": "Admin-Vorschau (nur Entwicklung)"
+  },
+  "admin": {
+    "title": "Verwaltung",
+    "signOut": "Abmelden",
+    "demoNote": "Vorschau mit Beispieldaten: Änderungen werden noch nicht gespeichert.",
+    "stockTitle": "Lagerbestand",
+    "item": "Artikel",
+    "amount": "Bestand",
+    "teamTitle": "Team",
+    "teamName": "Name",
+    "teamRole": "Aufgabe",
+    "teamAdd": "Hinzufügen",
+    "teamEmpty": "Noch keine Mitarbeitenden angelegt.",
+    "remove": "Entfernen"
+  },
+  "footer": {
+    "tagline": "Dein Stück Brasilien in Braunschweig",
+    "login": "Team-Login",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

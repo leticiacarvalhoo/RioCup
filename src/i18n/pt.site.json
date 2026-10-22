@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "products": "Produtos",
+    "about": "Sobre nós",
+    "order": "Encomendar açaí",
+    "menu": "Menu"
+  },
+  "home": {
+    "eyebrow": "RIOCUP & CO. · BRAUNSCHWEIG",
+    "title": "Seu pedaço do Brasil em Braunschweig.",
+    "text": "Açaí, tapioca e snacks brasileiros, feitos na hora no Magniviertel.",
+    "ctaOrder": "Encomendar açaí",
+    "cta": "Conheça os produtos",
+    "productsEyebrow": "NOSSOS PRODUTOS",
+    "productsTitle": "Tem gosto de Brasil.",
+    "orderEyebrow": "ENCOMENDAR",
+    "orderTitle": "Seu açaí no tamanho certo.",
+    "orderText": "Quatro tamanhos, um sabor: escolha XS, S, M ou L e encomende.",
+    "aboutEyebrow": "SOBRE NÓS",
+    "aboutTitle": "Um pedacinho do Brasil no Magniviertel.",
+    "aboutText": "A RioCup & Co. leva clássicos brasileiros a Braunschweig: açaí, tapioca, pão de queijo e muito mais. Feito com carinho, para quem quer sentir o gosto do Brasil.",
+    "aboutCta": "Saiba mais sobre nós",
+    "visitEyebrow": "VISITE-NOS",
+    "visitTitle": "Estamos te esperando.",
+    "visitMaps": "Rota no Google Maps",
+    "visitInstagram": "Seguir no Instagram"
+  },
+  "about": {
+    "eyebrow": "SOBRE NÓS",
+    "title": "O Brasil se sente no paladar.",
+    "intro": "A RioCup & Co. é uma pequena loja brasileira no Magniviertel, em Braunschweig.",
+    "p1": "Trazemos os clássicos do Brasil para a cidade: açaí, tapioca, coxinha, pão de queijo e guaraná. Simples, honesto e com um toque de férias.",
+    "p2": "No Instagram, você também aprende português com a gente, palavra por palavra. Passe aqui e experimente.",
+    "values": [
+      { "title": "Brasileiro", "text": "Clássicos e receitas do Brasil." },
+      { "title": "Feito com carinho", "text": "Uma cozinha pequena, com muito cuidado." },
+      { "title": "No meio do bairro", "text": "No Magniviertel, no coração de Braunschweig." }
+    ]
+  },
+  "order": {
+    "eyebrow": "ENCOMENDAR",
+    "title": "Encomendar açaí",
+    "intro": "Escolha o tamanho e retire o seu açaí na loja.",
+    "sizeTitle": "Tamanho",
+    "qtyTitle": "Quantidade",
+    "toppingsTitle": "Toppings",
+    "toppingsSoon": "Em breve você poderá escolher os toppings aqui.",
+    "nameLabel": "Seu nome",
+    "namePlaceholder": "Como podemos te chamar?",
+    "pickupLabel": "Horário de retirada",
+    "noteLabel": "Observação (opcional)",
+    "summaryTitle": "Seu pedido",
+    "summaryItem": "{{qty}} × Açaí {{size}}",
+    "total": "Total",
+    "submit": "Enviar encomenda",
+    "needName": "Digite seu nome para continuar.",
+    "demo": "Obrigado, {{name}}! Esta é uma versão de teste: seu pedido ({{total}}, retirada às {{time}}) ainda não foi enviado à loja.",
+    "fineprint": "Versão de teste: nenhum pedido ou pagamento é enviado."
+  },
+  "login": {
+    "eyebrow": "EQUIPE",
+    "title": "Login",
+    "intro": "Somente para a equipe da RioCup.",
+    "email": "E-mail",
+    "password": "Senha",
+    "submit": "Entrar",
+    "error": {
+      "backend": "O login ainda não está conectado ao servidor."
+    },
+    "preview": "Prévia do admin (somente desenvolvimento)"
+  },
+  "admin": {
+    "title": "Administração",
+    "signOut": "Sair",
+    "demoNote": "Prévia com dados de exemplo: as alterações ainda não são salvas.",
+    "stockTitle": "Estoque",
+    "item": "Item",
+    "amount": "Quantidade",
+    "teamTitle": "Equipe",
+    "teamName": "Nome",
+    "teamRole": "Função",
+    "teamAdd": "Adicionar",
+    "teamEmpty": "Nenhum funcionário cadastrado ainda.",
+    "remove": "Remover"
+  },
+  "footer": {
+    "tagline": "Seu pedaço do Brasil em Braunschweig",
+    "login": "Login da equipe",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz"
+  }
+}

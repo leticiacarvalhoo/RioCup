@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "products": "Produkte",
+    "order": "Açaí bestellen"
+  },
+  "home": {
+    "eyebrow": "DEIN STÜCK BRASILIEN",
+    "title": "Açaí, Tapioca & mehr in Braunschweig",
+    "text": "Frischer Açaí, warme Tapioca und brasilianische Snacks – mit Liebe zubereitet im Magniviertel.",
+    "cta": "Unsere Produkte"
+  },
+  "soon": "Dieser Bereich entsteht gerade.",
+  "footer": {
+    "tagline": "Dein Stück Brasilien in Braunschweig"
+  },
+  "diet": {
+    "gluten": {
+      "free": "Glutenfrei",
+      "contains": "Enthält Gluten",
+      "varies": "Gluten je nach Zutaten"
+    },
+    "lactose": {
+      "free": "Laktosefrei",
+      "contains": "Enthält Laktose",
+      "varies": "Laktose je nach Zutaten"
+    }
+  },
+  "products": {
+    "eyebrow": "UNSERE PRODUKTE",
+    "title": "Brasilianischer Geschmack, kurz erklärt",
+    "intro": "Açaí, Tapioca, Coxinha, Guaraná und Pão de Queijo: Hier erfährst du, was dahintersteckt, woher es kommt und was du vor dem Probieren wissen solltest.",
+    "notice": "Hinweis: Die Angaben sind allgemeine Informationen zu den Lebensmitteln. Rezepturen, Füllungen und Toppings können abweichen, und in der Küche können Spuren von Allergenen vorkommen. Bei Allergien oder Unverträglichkeiten frag bitte unser Team.",
+    "factsTitle": "Das steckt drin",
+    "carefulTitle": "Darauf solltest du achten",
+    "items": {
+      "acai": {
+        "name": "Açaí",
+        "what": "Açaí (sprich: a-ßa-í) ist die dunkelviolette Beere der Açaí-Palme, die im Amazonasgebiet wächst. In Brasilien wird sie als gefrorenes Fruchtmark gegessen, meist als cremige Bowl mit Banane, Granola und frischem Obst.",
+        "facts": [
+          "Das reine Fruchtfleisch ist von Natur aus nicht süß.",
+          "Es enthält Ballaststoffe und ungesättigte Fettsäuren.",
+          "Die dunkle Farbe stammt von Anthocyanen, natürlichen Pflanzenfarbstoffen."
+        ],
+        "careful": [
+          "Durch Sirup, Süßungsmittel und Toppings kann eine Bowl viel Zucker und viele Kalorien enthalten.",
+          "Pur ist Açaí glutenfrei und laktosefrei, Toppings wie Granola (Gluten) oder Kondensmilch (Laktose) können das ändern."
+        ]
+      },
+      "tapioca": {
+        "name": "Tapioca",
+        "what": "Tapioca ist ein dünner brasilianischer Fladen aus Maniokstärke. Die Stärke wird ohne Teig und ohne Weizenmehl in der Pfanne zu einem Fladen gebacken und danach süß oder herzhaft gefüllt, zum Beispiel mit Käse, Kokos oder Schokolade.",
+        "facts": [
+          "Aus Maniok hergestellt, daher von Natur aus glutenfrei.",
+          "Besteht hauptsächlich aus Kohlenhydraten, mit wenig Eiweiß und Ballaststoffen.",
+          "Die Füllung bestimmt, ob sie süß oder herzhaft wird."
+        ],
+        "careful": [
+          "Zucker-, Fett- und Laktosegehalt hängen stark von der Füllung ab, zum Beispiel bei Käse oder Kondensmilch."
+        ]
+      },
+      "coxinha": {
+        "name": "Coxinha",
+        "what": "Coxinha (sprich: ko-SCHI-nja) ist einer der beliebtesten Snacks Brasiliens: ein Teig, gefüllt mit gezupftem Hühnchen und oft mit cremigem Frischkäse, in Tropfenform geformt, paniert und frittiert. Der Name bedeutet „kleiner Schenkel“, wegen der Form.",
+        "facts": [
+          "Das Hühnchen in der Füllung liefert Eiweiß.",
+          "Außen knusprig, innen cremig."
+        ],
+        "careful": [
+          "Der Teig wird in der Regel mit Weizenmehl gemacht und enthält deshalb Gluten.",
+          "Frittiert, daher energie- und fettreich.",
+          "Käse in der Füllung oder Milch im Teig bringen Laktose mit."
+        ]
+      },
+      "guarana": {
+        "name": "Guaraná",
+        "what": "Guaraná ist eine Kletterpflanze (Paullinia cupana) aus dem Amazonasgebiet, ihre Samen enthalten Koffein. In Brasilien kennt fast jeder Guaraná als erfrischende, leicht fruchtige Limonade. Außerdem wird er als Sirup oder Pulver verwendet, zum Beispiel zu Açaí.",
+        "facts": [
+          "Die Samen enthalten Koffein.",
+          "Als Getränk enthält Guaraná in der Regel weder Gluten noch Laktose."
+        ],
+        "careful": [
+          "Koffeinhaltig: für Kinder, Schwangere und Stillende nicht empfohlen.",
+          "Guaraná-Limonade enthält meist viel Zucker."
+        ]
+      },
+      "paoDeQueijo": {
+        "name": "Pão de Queijo",
+        "what": "Pão de Queijo („Käsebrötchen“) stammt aus dem Bundesstaat Minas Gerais. Die kleinen, luftigen Bällchen werden aus Maniokstärke (Polvilho), Käse, Ei, Milch und Öl gebacken: außen leicht knusprig, innen weich und elastisch.",
+        "facts": [
+          "Wird mit Maniokstärke statt Weizenmehl gemacht und ist deshalb von Natur aus glutenfrei.",
+          "Käse und Ei liefern Eiweiß."
+        ],
+        "careful": [
+          "Enthält Käse, Ei und meist auch Milch (Laktose, Ei und Milch sind Allergene).",
+          "Durch Käse und Öl ziemlich energiereich."
+        ]
+      }
+    }
+  }
+}

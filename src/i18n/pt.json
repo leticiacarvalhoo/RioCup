@@ -1,0 +1,101 @@
+{
+  "nav": {
+    "about": "Sobre nós",
+    "products": "Produtos",
+    "order": "Encomendar açaí"
+  },
+  "home": {
+    "eyebrow": "O SEU PEDAÇO DO BRASIL",
+    "title": "Açaí, tapioca e muito mais em Braunschweig",
+    "text": "Açaí fresquinho, tapioca quentinha e snacks brasileiros, feitos com carinho no Magniviertel.",
+    "cta": "Nossos produtos"
+  },
+  "soon": "Esta área está sendo construída.",
+  "footer": {
+    "tagline": "Seu pedaço do Brasil em Braunschweig"
+  },
+  "diet": {
+    "gluten": {
+      "free": "Sem glúten",
+      "contains": "Contém glúten",
+      "varies": "Glúten conforme os ingredientes"
+    },
+    "lactose": {
+      "free": "Sem lactose",
+      "contains": "Contém lactose",
+      "varies": "Lactose conforme os ingredientes"
+    }
+  },
+  "products": {
+    "eyebrow": "NOSSOS PRODUTOS",
+    "title": "O sabor do Brasil, explicado",
+    "intro": "Açaí, tapioca, coxinha, guaraná e pão de queijo: veja o que é cada um, de onde vem e o que vale saber antes de experimentar.",
+    "notice": "Aviso: as informações são gerais sobre os alimentos. Receitas, recheios e toppings podem variar, e traços de alérgenos podem estar presentes na cozinha. Em caso de alergia ou intolerância, pergunte à nossa equipe.",
+    "factsTitle": "O que tem nele",
+    "carefulTitle": "Pontos de atenção",
+    "items": {
+      "acai": {
+        "name": "Açaí",
+        "what": "O açaí é a frutinha roxa escura da palmeira de açaí, típica da Amazônia. No Brasil, é consumido como polpa congelada, geralmente em uma tigela cremosa com banana, granola e frutas.",
+        "facts": [
+          "A polpa pura não é doce por natureza.",
+          "Contém fibras e gorduras insaturadas.",
+          "A cor escura vem das antocianinas, pigmentos naturais das plantas."
+        ],
+        "careful": [
+          "Com xarope, adoçantes e toppings, uma tigela pode ter muito açúcar e muitas calorias.",
+          "A polpa pura não tem glúten nem lactose, mas toppings como granola (glúten) ou leite condensado (lactose) podem mudar isso."
+        ]
+      },
+      "tapioca": {
+        "name": "Tapioca",
+        "what": "A tapioca é uma panqueca fina brasileira feita de goma de mandioca. A goma vai à frigideira, sem massa e sem farinha de trigo, e depois é recheada com ingredientes doces ou salgados, como queijo, coco ou chocolate.",
+        "facts": [
+          "Feita de mandioca, portanto naturalmente sem glúten.",
+          "É composta principalmente de carboidratos, com pouca proteína e fibra.",
+          "O recheio define se ela fica doce ou salgada."
+        ],
+        "careful": [
+          "Açúcar, gordura e lactose dependem muito do recheio, por exemplo queijo ou leite condensado."
+        ]
+      },
+      "coxinha": {
+        "name": "Coxinha",
+        "what": "A coxinha (pronuncia-se ko-XI-nha) é um dos salgados mais queridos do Brasil: massa recheada com frango desfiado e, muitas vezes, requeijão cremoso, modelada em formato de gota, empanada e frita. O nome significa pequena coxa, por causa do formato.",
+        "facts": [
+          "O frango do recheio fornece proteína.",
+          "Crocante por fora e cremosa por dentro."
+        ],
+        "careful": [
+          "A massa costuma ser feita com farinha de trigo, então contém glúten.",
+          "É frita, portanto calórica e gordurosa.",
+          "Queijo no recheio ou leite na massa trazem lactose."
+        ]
+      },
+      "guarana": {
+        "name": "Guaraná",
+        "what": "O guaraná é uma planta trepadeira (Paullinia cupana) da Amazônia, e suas sementes contêm cafeína. No Brasil, quase todo mundo conhece o guaraná como refrigerante refrescante e levemente frutado. Ele também é usado em xarope ou pó, por exemplo no açaí.",
+        "facts": [
+          "As sementes contêm cafeína.",
+          "Como bebida, o guaraná geralmente não contém glúten nem lactose."
+        ],
+        "careful": [
+          "Contém cafeína: não recomendado para crianças, gestantes e lactantes.",
+          "Refrigerante de guaraná costuma ter bastante açúcar."
+        ]
+      },
+      "paoDeQueijo": {
+        "name": "Pão de Queijo",
+        "what": "O pão de queijo (“pãozinho de queijo”) vem de Minas Gerais. As bolinhas leves são assadas com polvilho (goma de mandioca), queijo, ovo, leite e óleo: levemente crocantes por fora, macias e elásticas por dentro.",
+        "facts": [
+          "Feito com polvilho em vez de farinha de trigo, portanto naturalmente sem glúten.",
+          "Queijo e ovo fornecem proteína."
+        ],
+        "careful": [
+          "Contém queijo, ovo e geralmente leite (lactose, ovo e leite são alérgenos).",
+          "Queijo e óleo o tornam bem calórico."
+        ]
+      }
+    }
+  }
+}
