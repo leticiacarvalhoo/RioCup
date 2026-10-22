@@ -4,4 +4,5 @@ export const products = [
   { id: "coxinha", gluten: "contains", lactose: "varies" },
   { id: "guarana", gluten: "free", lactose: "free" },
   { id: "paoDeQueijo", gluten: "free", lactose: "contains" },
+  { id: "brigadeiro", gluten: "varies", lactose: "contains" },
 ];

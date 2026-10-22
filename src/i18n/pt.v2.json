@@ -1,0 +1,92 @@
+{
+  "home": {
+    "autumnEyebrow": "CARDÁPIO DE OUTONO",
+    "autumnTitle": "Novidades de outono.",
+    "autumnText": "Quentinho, cremoso e com um toque brasileiro: nosso cardápio de outono para os dias frios.",
+    "autumnItems": [
+      { "name": "Chocolate quente", "text": "Cremoso e quentinho, perfeito para os dias frios." },
+      { "name": "Cappuccino com paçoca", "text": "Cappuccino com paçoca, o doce brasileiro de amendoim moído." },
+      { "name": "Waffle", "text": "Um clássico quentinho de outono." },
+      { "name": "Mini waffles", "text": "A versão pequena, para beliscar e dividir." }
+    ]
+  },
+  "about": {
+    "title": "Dois países, uma loja.",
+    "intro": "A RioCup & Co. une dois países: Brasil e Alemanha.",
+    "storyTitle": "Nossa história",
+    "story": [
+      "A Sandra é brasileira e mora na Alemanha há cinco anos. O Ralph é alemão e viveu dez anos no Brasil. Foi lá que os dois se conheceram.",
+      "Juntos, eles decidiram se mudar para a Alemanha. Em maio de 2026, realizaram um sonho e abriram a RioCup & Co. no Magniviertel, em Braunschweig.",
+      "O desejo deles: levar um pouco da alegria brasileira para a cidade, com clássicos do Brasil e as histórias por trás deles, explicados de forma simples para quem quer conhecer o Brasil."
+    ],
+    "values": [
+      { "title": "Brasileiro de verdade", "text": "Clássicos do Brasil, explicados de forma simples." },
+      { "title": "Para todo mundo em Braunschweig", "text": "Aberto a quem quer conhecer o Brasil." },
+      { "title": "Com carinho", "text": "Uma equipe pequena, uma cozinha pequena, muito cuidado." }
+    ]
+  },
+  "order": {
+    "toppingsCount": "{{n}} de {{max}} toppings escolhidos",
+    "toppingsUnlimited": "{{n}} toppings escolhidos · ilimitado",
+    "toppingsLimit": "Limite atingido. Remova um topping ou escolha um tamanho maior.",
+    "summaryToppings": "Toppings",
+    "noToppings": "nenhum"
+  },
+  "products": {
+    "intro": "Açaí, tapioca, coxinha, guaraná, pão de queijo e brigadeiro: veja o que é cada um, de onde vem e o que vale saber antes de experimentar.",
+    "items": {
+      "brigadeiro": {
+        "name": "Brigadeiro",
+        "what": "O brigadeiro (pronuncia-se bri-ga-DEI-ro) é o doce de festa por excelência no Brasil: bolinhas de leite condensado, cacau e manteiga, enroladas em granulado de chocolate. Não pode faltar em aniversário de criança.",
+        "facts": [
+          "Feito classicamente com leite condensado, cacau e manteiga.",
+          "Macio e cremoso por dentro, com granulado de chocolate por fora."
+        ],
+        "careful": [
+          "Contém leite (lactose) e é bem doce.",
+          "Se o granulado contém glúten depende do fabricante."
+        ]
+      }
+    }
+  },
+  "admin": {
+    "title": "Administração",
+    "signOut": "Sair",
+    "demoNote": "Prévia: os dados ficam salvos só neste navegador. Por favor, não digite salários reais ainda.",
+    "stockTitle": "Estoque",
+    "teamTitle": "Equipe e horas",
+    "item": "Item",
+    "amount": "Quantidade",
+    "minLabel": "Crítico a partir de",
+    "statusLabel": "Status",
+    "status": { "ok": "OK", "critical": "Crítico", "empty": "Zerado" },
+    "alertTitle": "{{n}} itens precisam de reposição",
+    "alertLine": {
+      "critical": "{{name}}: restam só {{qty}} {{unit}} (crítico a partir de {{min}})",
+      "empty": "{{name}}: zerado"
+    },
+    "addItemTitle": "Adicionar item",
+    "namePlaceholder": "Nome (ex.: Granola)",
+    "qtyPlaceholder": "Quantidade",
+    "minPlaceholder": "Crítico a partir de",
+    "unitPlaceholder": "Unidade (ex.: caixas)",
+    "add": "Adicionar",
+    "remove": "Remover",
+    "confirmRemove": "Remover mesmo?",
+    "monthLabel": "Mês",
+    "employee": "Funcionário(a)",
+    "hoursCol": "Horas",
+    "rateCol": "Valor da hora (€)",
+    "payCol": "Valor a receber",
+    "totalRow": "Total",
+    "logTitle": "Registrar horas",
+    "dateLabel": "Data",
+    "hoursPlaceholder": "Horas (ex.: 6,5)",
+    "logAdd": "Registrar",
+    "entriesTitle": "Registros do mês",
+    "noEntries": "Nenhum registro neste mês.",
+    "addMemberTitle": "Adicionar funcionário(a)",
+    "memberPlaceholder": "Nome",
+    "noTeam": "Nenhum funcionário cadastrado ainda."
+  }
+}

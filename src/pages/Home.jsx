@@ -6,6 +6,7 @@ import { store } from "../data/store";
 
 export default function Home() {
   const { t } = useTranslation();
+  const autumn = t("home.autumnItems", { returnObjects: true });
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(store.address)}`;
 
   return (
@@ -47,6 +48,25 @@ export default function Home() {
                 <span className="tile-name">{t(`products.items.${p.id}.name`)}</span>
                 <span className="tile-arrow" aria-hidden="true">↗</span>
               </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="section section-paper">
+        <div className="wrap split">
+          <div>
+            <span className="eyebrow dark">{t("home.autumnEyebrow")}</span>
+            <h2>{t("home.autumnTitle")}</h2>
+            <p>{t("home.autumnText")}</p>
+          </div>
+
+          <div className="menu-list">
+            {autumn.map((item) => (
+              <div className="menu-item" key={item.name}>
+                <h3>{item.name}</h3>
+                <p>{item.text}</p>
+              </div>
             ))}
           </div>
         </div>

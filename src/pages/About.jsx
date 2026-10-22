@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 export default function About() {
   const { t } = useTranslation();
+  const story = t("about.story", { returnObjects: true });
   const values = t("about.values", { returnObjects: true });
 
   return (
@@ -12,8 +13,10 @@ export default function About() {
         <p className="lead">{t("about.intro")}</p>
 
         <div className="prose">
-          <p>{t("about.p1")}</p>
-          <p>{t("about.p2")}</p>
+          <h2 className="prose-title">{t("about.storyTitle")}</h2>
+          {story.map((paragraph) => (
+            <p key={paragraph}>{paragraph}</p>
+          ))}
         </div>
 
         <div className="values">

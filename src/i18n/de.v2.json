@@ -1,0 +1,92 @@
+{
+  "home": {
+    "autumnEyebrow": "HERBSTKARTE",
+    "autumnTitle": "Neu im Herbst.",
+    "autumnText": "Warm, cremig und mit brasilianischem Twist: unsere Herbstkarte für die kalten Tage.",
+    "autumnItems": [
+      { "name": "Heiße Schokolade", "text": "Cremig und warm, genau richtig für kalte Tage." },
+      { "name": "Cappuccino mit Paçoca", "text": "Cappuccino mit Paçoca, einer brasilianischen Süßigkeit aus gemahlenen Erdnüssen." },
+      { "name": "Waffel", "text": "Ein warmer Herbstklassiker." },
+      { "name": "Mini-Waffeln", "text": "Die kleine Version zum Naschen und Teilen." }
+    ]
+  },
+  "about": {
+    "title": "Zwei Länder, ein Laden.",
+    "intro": "RioCup & Co. verbindet zwei Länder: Brasilien und Deutschland.",
+    "storyTitle": "Unsere Geschichte",
+    "story": [
+      "Sandra kommt aus Brasilien und lebt seit fünf Jahren in Deutschland. Ralph ist Deutscher und hat zehn Jahre lang in Brasilien gelebt. Dort haben sich die beiden kennengelernt.",
+      "Gemeinsam haben sie sich entschieden, nach Deutschland zu ziehen. Im Mai 2026 haben sie sich einen Traum erfüllt und RioCup & Co. im Magniviertel in Braunschweig eröffnet.",
+      "Ihr Wunsch: ein Stück brasilianische Lebensfreude in die Stadt zu bringen, mit Klassikern aus Brasilien und den Geschichten dahinter, einfach erklärt für alle, die Brasilien entdecken möchten."
+    ],
+    "values": [
+      { "title": "Authentisch brasilianisch", "text": "Klassiker aus Brasilien, einfach erklärt." },
+      { "title": "Für alle in Braunschweig", "text": "Offen für alle, die Brasilien kennenlernen wollen." },
+      { "title": "Mit Herz", "text": "Ein kleines Team, eine kleine Küche, viel Sorgfalt." }
+    ]
+  },
+  "order": {
+    "toppingsCount": "{{n}} von {{max}} Toppings gewählt",
+    "toppingsUnlimited": "{{n}} Toppings gewählt · unbegrenzt",
+    "toppingsLimit": "Limit erreicht. Entferne ein Topping oder wähle eine größere Größe.",
+    "summaryToppings": "Toppings",
+    "noToppings": "keine"
+  },
+  "products": {
+    "intro": "Açaí, Tapioca, Coxinha, Guaraná, Pão de Queijo und Brigadeiro: Hier erfährst du, was dahintersteckt, woher es kommt und was du vor dem Probieren wissen solltest.",
+    "items": {
+      "brigadeiro": {
+        "name": "Brigadeiro",
+        "what": "Brigadeiro (sprich: bri-ga-DEI-ru) ist die brasilianische Party-Süßigkeit schlechthin: kleine Kugeln aus gesüßter Kondensmilch, Kakao und Butter, gerollt in Schokostreuseln. In Brasilien darf sie auf keinem Kindergeburtstag fehlen.",
+        "facts": [
+          "Wird klassisch aus gesüßter Kondensmilch, Kakao und Butter gekocht.",
+          "Innen weich und cremig, außen mit Schokostreuseln."
+        ],
+        "careful": [
+          "Enthält Milch (Laktose) und ist sehr süß.",
+          "Ob die Schokostreusel Gluten enthalten, hängt vom Hersteller ab."
+        ]
+      }
+    }
+  },
+  "admin": {
+    "title": "Verwaltung",
+    "signOut": "Abmelden",
+    "demoNote": "Vorschau: Die Daten bleiben nur in diesem Browser gespeichert. Bitte noch keine echten Gehaltsdaten eintragen.",
+    "stockTitle": "Lager",
+    "teamTitle": "Team & Stunden",
+    "item": "Artikel",
+    "amount": "Bestand",
+    "minLabel": "Kritisch ab",
+    "statusLabel": "Status",
+    "status": { "ok": "OK", "critical": "Kritisch", "empty": "Leer" },
+    "alertTitle": "{{n}} Artikel brauchen Nachschub",
+    "alertLine": {
+      "critical": "{{name}}: nur noch {{qty}} {{unit}} (kritisch ab {{min}})",
+      "empty": "{{name}}: leer"
+    },
+    "addItemTitle": "Artikel hinzufügen",
+    "namePlaceholder": "Name (z. B. Granola)",
+    "qtyPlaceholder": "Bestand",
+    "minPlaceholder": "Kritisch ab",
+    "unitPlaceholder": "Einheit (z. B. Kisten)",
+    "add": "Hinzufügen",
+    "remove": "Entfernen",
+    "confirmRemove": "Wirklich entfernen?",
+    "monthLabel": "Monat",
+    "employee": "Mitarbeiter/in",
+    "hoursCol": "Stunden",
+    "rateCol": "Stundenlohn (€)",
+    "payCol": "Betrag",
+    "totalRow": "Gesamt",
+    "logTitle": "Stunden eintragen",
+    "dateLabel": "Datum",
+    "hoursPlaceholder": "Stunden (z. B. 6,5)",
+    "logAdd": "Eintragen",
+    "entriesTitle": "Einträge in diesem Monat",
+    "noEntries": "Noch keine Einträge in diesem Monat.",
+    "addMemberTitle": "Mitarbeiter/in hinzufügen",
+    "memberPlaceholder": "Name",
+    "noTeam": "Noch keine Mitarbeitenden angelegt."
+  }
+}

@@ -1,19 +1,43 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { acaiSizes, pickupTimes } from "../data/acai";
+import { toppings, toppingGroups, toppingLimits } from "../data/toppings";
 import { money } from "../utils/money";
 
 export default function Order() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.resolvedLanguage === "pt" ? "pt" : "de";
+
   const [size, setSize] = useState("M");
   const [qty, setQty] = useState(1);
+  const [selected, setSelected] = useState([]);
   const [name, setName] = useState("");
   const [pickup, setPickup] = useState(pickupTimes[0]);
   const [note, setNote] = useState("");
   const [status, setStatus] = useState(null);
 
-  const unitPrice = acaiSizes.find((s) => s.id === size).price;
+  const limit = toppingLimits[size];
+  const atLimit = limit !== null && selected.length >= limit;
+
+  const findTopping = (id) => toppings.find((x) => x.id === id);
+  const extrasCost = selected.reduce((sum, id) => sum + (findTopping(id)?.extraPrice || 0), 0);
+  const unitPrice = acaiSizes.find((s) => s.id === size).price + extrasCost;
   const total = unitPrice * qty;
+  const selectedNames = selected.map((id) => findTopping(id)[lang]);
+
+  function changeSize(newSize) {
+    setSize(newSize);
+    const newLimit = toppingLimits[newSize];
+    if (newLimit !== null) setSelected((list) => list.slice(0, newLimit));
+  }
+
+  function toggleTopping(id) {
+    setSelected((list) => {
+      if (list.includes(id)) return list.filter((x) => x !== id);
+      if (limit !== null && list.length >= limit) return list;
+      return [...list, id];
+    });
+  }
 
   function submit(event) {
     event.preventDefault();
@@ -42,13 +66,53 @@ export default function Order() {
                       name="size"
                       value={s.id}
                       checked={size === s.id}
-                      onChange={() => setSize(s.id)}
+                      onChange={() => changeSize(s.id)}
                     />
                     <strong>{s.id}</strong>
                     <span>{money(s.price)}</span>
                   </label>
                 ))}
               </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>{t("order.toppingsTitle")}</legend>
+              <p className="topping-count">
+                {limit === null
+                  ? t("order.toppingsUnlimited", { n: selected.length })
+                  : t("order.toppingsCount", { n: selected.length, max: limit })}
+              </p>
+
+              {toppingGroups.map((group) => {
+                const items = toppings.filter((x) => x.group === group.id);
+                if (items.length === 0) return null;
+
+                return (
+                  <div className="topping-group" key={group.id}>
+                    <h3>{group[lang]}</h3>
+                    <div className="topping-list">
+                      {items.map((item) => {
+                        const on = selected.includes(item.id);
+                        return (
+                          <button
+                            key={item.id}
+                            type="button"
+                            className={`topping ${on ? "on" : ""}`}
+                            aria-pressed={on}
+                            disabled={!on && atLimit}
+                            onClick={() => toggleTopping(item.id)}
+                          >
+                            {item[lang]}
+                            {item.extraPrice ? ` +${money(item.extraPrice)}` : ""}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                );
+              })}
+
+              {atLimit && <p className="status">{t("order.toppingsLimit")}</p>}
             </fieldset>
 
             <fieldset>
@@ -62,11 +126,6 @@ export default function Order() {
                   +
                 </button>
               </div>
-            </fieldset>
-
-            <fieldset>
-              <legend>{t("order.toppingsTitle")}</legend>
-              <div className="soon-box">{t("order.toppingsSoon")}</div>
             </fieldset>
 
             <label className="field">
@@ -101,6 +160,10 @@ export default function Order() {
               <div>
                 <dt>{t("order.summaryItem", { qty, size })}</dt>
                 <dd>{money(total)}</dd>
+              </div>
+              <div>
+                <dt>{t("order.summaryToppings")}</dt>
+                <dd>{selectedNames.length ? selectedNames.join(", ") : t("order.noToppings")}</dd>
               </div>
               <div>
                 <dt>{t("order.pickupLabel")}</dt>
