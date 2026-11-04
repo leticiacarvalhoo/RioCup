@@ -1,0 +1,14 @@
+/* Estilos novos da página de pedidos. Importado por src/pages/Order.jsx */
+.pick-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 10px; }
+.pick { display: grid; gap: 4px; padding: 16px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); color: var(--ink); text-align: left; transition: border-color 0.2s, background 0.2s; }
+.pick span { color: var(--muted); font-size: 0.85rem; }
+.pick:hover:not(:disabled) { border-color: var(--brand); }
+.pick.selected { border-color: var(--brand); background: var(--lilac); }
+.pick:disabled { opacity: 0.5; cursor: not-allowed; }
+.builder { display: grid; gap: 22px; padding: 24px; border: 1px solid var(--brand); border-radius: 22px; background: var(--paper); }
+.builder h2 { font-size: 1.3rem; }
+.cart-lines { display: grid; gap: 14px; margin: 0 0 18px; padding: 0; list-style: none; }
+.cart-lines li { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 10px; font-size: 0.92rem; }
+.cart-lines small { display: block; margin-top: 2px; color: var(--muted); }
+.cart-qty { display: inline-flex; align-items: center; gap: 8px; }
+.cart-qty button { width: 28px; height: 28px; border: 1px solid var(--line); border-radius: 50%; background: var(--paper); }
