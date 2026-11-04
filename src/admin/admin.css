@@ -1,0 +1,58 @@
+.admin-shell { display: grid; grid-template-columns: 230px minmax(0, 1fr); gap: 32px; align-items: start; margin-top: 24px; }
+.admin-nav { position: sticky; top: 96px; display: grid; gap: 4px; }
+.admin-nav button { padding: 11px 16px; border: 0; border-radius: 14px; background: transparent; color: var(--ink); font-weight: 600; text-align: left; }
+.admin-nav button:hover { background: var(--lilac); }
+.admin-nav button.active { background: var(--brand); color: #fff; }
+.admin-main { min-width: 0; }
+.admin-main .admin-section:first-child { margin-top: 0; }
+
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 14px; }
+.stat { padding: 20px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); color: var(--muted); text-align: left; }
+.stat:hover { border-color: var(--brand); }
+.stat strong { display: block; margin-bottom: 4px; color: var(--ink); font-size: 1.8rem; }
+
+.res-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.res-head h2 { margin: 0; }
+.res-form { display: grid; gap: 16px; margin-bottom: 20px; padding: 22px; border: 1px solid var(--line); border-radius: 20px; background: var(--paper); }
+.res-form h3 { font-size: 1.05rem; }
+.row { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.field small, .text-edit > small { color: var(--muted); font-size: 0.78rem; }
+.field.check { display: flex; align-items: center; gap: 10px; }
+.field.check input { width: auto; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.button.small { padding: 8px 15px; font-size: 0.82rem; }
+.button.danger { color: #8c2f39; }
+.button:disabled { opacity: 0.6; cursor: wait; }
+.row-off td { opacity: 0.5; }
+.thumb { display: block; width: 48px; height: 48px; border-radius: 10px; object-fit: cover; }
+.upload { display: grid; gap: 8px; }
+.upload-preview { width: 120px; height: 90px; border-radius: 12px; object-fit: cover; }
+.text-edit { display: grid; gap: 8px; margin-bottom: 22px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.opt-grid { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.opt-grid label { display: flex; align-items: center; gap: 6px; font-size: 0.9rem; }
+
+.toasts { position: fixed; right: 20px; bottom: 20px; z-index: 50; display: grid; gap: 8px; max-width: calc(100vw - 40px); }
+.toast { padding: 12px 18px; border-radius: 12px; background: var(--sage-dark); color: #fff; font-weight: 600; font-size: 0.9rem; }
+.toast.error { background: #8c2f39; }
+
+@media (max-width: 900px) {
+  .admin-shell { grid-template-columns: 1fr; gap: 16px; }
+  .admin-nav { position: static; display: flex; overflow-x: auto; padding-bottom: 6px; }
+  .admin-nav button { white-space: nowrap; }
+}
+
+/* Público: promoções e selos */
+.promo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.promo { position: relative; display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; min-height: 260px; padding: 28px; overflow: hidden; border-radius: var(--radius); color: #fff; background: var(--img, none) center / cover no-repeat, linear-gradient(145deg, #7a2a7d, #3a1a3b); }
+.promo::before { content: ""; position: absolute; inset: 0; background: linear-gradient(to top, #2b0f2ccc, #2b0f2c33); }
+.promo > * { position: relative; }
+.promo h3 { font-size: 1.5rem; }
+.promo p { margin: 0; max-width: 420px; line-height: 1.6; }
+.promo strong { font-size: 1.4rem; }
+.pill { display: inline-block; align-self: flex-start; padding: 4px 12px; border-radius: 999px; background: var(--sage); color: var(--ink); font-size: 0.74rem; font-weight: 800; }
+.tile .pill { position: absolute; top: 18px; left: 18px; }
+.tile-price { font-size: 0.95rem; font-weight: 700; }
+.tile-price s { opacity: 0.7; margin-right: 6px; }
+.product-photo { width: 100%; max-width: 680px; max-height: 320px; margin: 16px 0; border-radius: 20px; object-fit: cover; }
+.chip.active { border-color: var(--brand); background: var(--brand); color: #fff; }
+.button[aria-disabled="true"] { opacity: 0.5; pointer-events: none; }

@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useAuth } from "../auth/AuthContext";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
   const { t } = useTranslation();
+  const { user } = useAuth();
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
 
@@ -29,6 +31,9 @@ export default function Navbar() {
         <nav className={open ? "open" : ""}>
           <NavLink to="/produkte" onClick={close}>{t("nav.products")}</NavLink>
           <NavLink to="/ueber-uns" onClick={close}>{t("nav.about")}</NavLink>
+          <NavLink to={user ? "/admin" : "/login"} onClick={close}>
+            {t("nav.admin", { defaultValue: "Admin" })}
+          </NavLink>
           <LanguageSwitcher />
           <Link to="/bestellen" className="nav-cta" onClick={close}>
             {t("nav.order")}

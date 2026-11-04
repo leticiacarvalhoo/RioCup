@@ -1,3 +1,4 @@
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
@@ -5,13 +6,16 @@ import "@fontsource-variable/inter";
 import "./index.css";
 import "./i18n";
 import { AuthProvider } from "./auth/AuthContext";
+import { ContentProvider } from "./content/ContentContext";
 import App from "./App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <AuthProvider>
-        <App />
+        <ContentProvider>
+          <App />
+        </ContentProvider>
       </AuthProvider>
     </BrowserRouter>
   </StrictMode>
