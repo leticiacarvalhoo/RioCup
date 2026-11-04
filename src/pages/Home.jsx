@@ -46,7 +46,7 @@ export default function Home() {
                 style={{ "--img": `url(/images/${p.id}.jpg)` }}
               >
                 <span className="tile-name">{t(`products.items.${p.id}.name`)}</span>
-                <span className="tile-arrow" aria-hidden="true">↗</span>
+                <span className="tile-arrow" aria-hidden="true">↗️</span>
               </Link>
             ))}
           </div>
