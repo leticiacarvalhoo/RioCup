@@ -1,0 +1,31 @@
+{
+  "order": {
+    "modeTitle": "Was möchtest du?",
+    "modeCustom": "Selbst zusammenstellen",
+    "modeBowl": "Bowl des Tages",
+    "baseTitle": "Basis",
+    "bowlTitle": "Bowls des Tages",
+    "bowlIntro": "Fertige Kreationen in Größe S für {{price}}. Wähle deine Bowl.",
+    "crunchTitle": "RioCrunch Cup",
+    "crunchHint": "Nur in Größe M, {{price}} Aufpreis.",
+    "crunchNone": "Ohne",
+    "crunch": { "white": "Weiß", "milk": "Vollmilch" },
+    "lidLabel": "Mit Deckel",
+    "allergyTitle": "Allergien oder Unverträglichkeiten?",
+    "allergyNo": "Nein",
+    "allergyYes": "Ja",
+    "allergyPlaceholder": "Welche?",
+    "needAllergy": "Bitte gib an, welche Allergien oder Unverträglichkeiten du hast.",
+    "toppingsIncluded": "{{n}} von {{max}} Toppings inklusive",
+    "toppingsOver": "{{n}} Toppings gewählt: {{max}} inklusive, {{extra}} extra (+{{cost}})",
+    "toppingsAll": "{{n}} Toppings gewählt, alle inklusive",
+    "toppingsHintExtra": "Jedes weitere Topping kostet {{price}}.",
+    "saucesCount": "{{n}} von 2 Soßen gewählt",
+    "summaryBase": "Basis",
+    "summaryBowl": "Bowl des Tages",
+    "summarySauces": "Soßen",
+    "summaryCrunch": "RioCrunch Cup",
+    "summaryLid": "Mit Deckel",
+    "yes": "Ja"
+  }
+}

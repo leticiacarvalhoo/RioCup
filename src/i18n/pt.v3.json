@@ -1,0 +1,31 @@
+{
+  "order": {
+    "modeTitle": "O que você quer?",
+    "modeCustom": "Montar o meu",
+    "modeBowl": "Bowl do dia",
+    "baseTitle": "Base",
+    "bowlTitle": "Bowls do dia",
+    "bowlIntro": "Criações prontas no tamanho S por {{price}}. Escolha a sua bowl.",
+    "crunchTitle": "RioCrunch Cup",
+    "crunchHint": "Somente no tamanho M, com acréscimo de {{price}}.",
+    "crunchNone": "Sem",
+    "crunch": { "white": "Branco", "milk": "Ao leite" },
+    "lidLabel": "Com tampa",
+    "allergyTitle": "Alergias ou intolerâncias?",
+    "allergyNo": "Não",
+    "allergyYes": "Sim",
+    "allergyPlaceholder": "Quais?",
+    "needAllergy": "Informe quais alergias ou intolerâncias você tem.",
+    "toppingsIncluded": "{{n}} de {{max}} toppings incluídos",
+    "toppingsOver": "{{n}} toppings escolhidos: {{max}} incluídos, {{extra}} extra (+{{cost}})",
+    "toppingsAll": "{{n}} toppings escolhidos, todos incluídos",
+    "toppingsHintExtra": "Cada topping adicional custa {{price}}.",
+    "saucesCount": "{{n}} de 2 caldas escolhidas",
+    "summaryBase": "Base",
+    "summaryBowl": "Bowl do dia",
+    "summarySauces": "Caldas",
+    "summaryCrunch": "RioCrunch Cup",
+    "summaryLid": "Com tampa",
+    "yes": "Sim"
+  }
+}

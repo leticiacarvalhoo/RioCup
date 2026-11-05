@@ -307,3 +307,18 @@ main { flex: 1; }
 .month-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin-bottom: 16px; font-weight: 700; }
 .month-bar input { padding: 10px 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--paper); color: var(--ink); }
 .inline-form select { padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--paper); color: var(--ink); }
+
+/* Encomenda: bowls, opções e checkbox */
+.hint { margin: 0 0 14px; color: var(--muted); font-size: 0.85rem; line-height: 1.5; }
+.spaced { margin-top: 12px; }
+.bowl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.bowl-card { position: relative; display: grid; gap: 6px; padding: 18px; border: 1px solid var(--line); border-radius: 18px; background: var(--paper); cursor: pointer; transition: border-color 0.2s, background 0.2s; }
+.bowl-card input { position: absolute; opacity: 0; pointer-events: none; }
+.bowl-card strong { font-size: 1.15rem; }
+.bowl-card span { color: var(--muted); font-size: 0.85rem; line-height: 1.5; }
+.bowl-card.selected { border-color: var(--brand); background: var(--lilac); }
+.bowl-card:has(input:focus-visible) { outline: 3px solid #b98ab9; outline-offset: 3px; }
+.check-row { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+.check-row input { width: 20px; height: 20px; accent-color: var(--brand); }
+
+
