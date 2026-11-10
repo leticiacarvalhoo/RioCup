@@ -1,29 +1,23 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
-import de from "./de.json";
-import pt from "./pt.json";
-import deSite from "./de.site.json";
-import ptSite from "./pt.site.json";
-import deV2 from "./de.v2.json";
-import ptV2 from "./pt.v2.json";
+
+// Carrega sozinho os arquivos de texto que existirem nesta pasta.
+// Ordem das camadas: base, site, v2, v3, v4... (o último sobrescreve só as chaves repetidas)
+const files = import.meta.glob("./*.json", { eager: true, import: "default" });
+const LAYERS = ["", ".site", ".v2", ".v3", ".v4", ".v5", ".v6"];
 
 i18n.use(initReactI18next).init({
-  resources: {
-    de: { translation: de },
-    pt: { translation: pt },
-  },
+  resources: { de: { translation: {} }, pt: { translation: {} } },
   lng: localStorage.getItem("lang") || "de",
   fallbackLng: "de",
   interpolation: { escapeValue: false },
 });
 
-// Junta os arquivos em camadas: o último sobrescreve só as chaves repetidas
-[
-  ["de", deSite, deV2],
-  ["pt", ptSite, ptV2],
-].forEach(([lng, site, v2]) => {
-  i18n.addResourceBundle(lng, "translation", site, true, true);
-  i18n.addResourceBundle(lng, "translation", v2, true, true);
+["de", "pt"].forEach((lng) => {
+  LAYERS.forEach((suffix) => {
+    const layer = files[`./${lng}${suffix}.json`];
+    if (layer) i18n.addResourceBundle(lng, "translation", layer, true, true);
+  });
 });
 
 document.documentElement.lang = i18n.language;
